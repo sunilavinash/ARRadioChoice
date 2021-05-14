@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ARRadioChoice_Example' do
+  pod 'ARRadioChoice', :path => '../'
+
+  target 'ARRadioChoice_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
