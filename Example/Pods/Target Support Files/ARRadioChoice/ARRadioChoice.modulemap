@@ -1,0 +1,6 @@
+framework module ARRadioChoice {
+  umbrella header "ARRadioChoice-umbrella.h"
+
+  export *
+  module * { export * }
+}

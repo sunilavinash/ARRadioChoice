@@ -1,0 +1,16 @@
+PODS:
+  - ARRadioChoice (0.1.0)
+
+DEPENDENCIES:
+  - ARRadioChoice (from `../`)
+
+EXTERNAL SOURCES:
+  ARRadioChoice:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ARRadioChoice: 600fff617086e6488a5b778b5970a54cc465364b
+
+PODFILE CHECKSUM: e0af59be2df52ab07c565c9785798a62630b70b4
+
+COCOAPODS: 1.10.1

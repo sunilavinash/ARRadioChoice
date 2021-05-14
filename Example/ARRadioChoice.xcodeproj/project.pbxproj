@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		077A571CA1A8C37FDC10DACC /* Pods-ARRadioChoice_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARRadioChoice_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ARRadioChoice_Tests/Pods-ARRadioChoice_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0898FED3D3D92130A8C044C2 /* Pods_ARRadioChoice_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARRadioChoice_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		103FEE04D92D9C15678DA33E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		103FEE04D92D9C15678DA33E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		24142DDEFA68521BE19A665A /* Pods-ARRadioChoice_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARRadioChoice_Example.release.xcconfig"; path = "Target Support Files/Pods-ARRadioChoice_Example/Pods-ARRadioChoice_Example.release.xcconfig"; sourceTree = "<group>"; };
 		48E5EB8AD93F5B540E5DA5E9 /* Pods-ARRadioChoice_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARRadioChoice_Tests.release.xcconfig"; path = "Target Support Files/Pods-ARRadioChoice_Tests/Pods-ARRadioChoice_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ARRadioChoice_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARRadioChoice_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,10 +43,10 @@
 		607FACE51AFB9204008FA782 /* ARRadioChoice_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARRadioChoice_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7F74CD201550181A8AA2D9B4 /* ARRadioChoice.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ARRadioChoice.podspec; path = ../ARRadioChoice.podspec; sourceTree = "<group>"; };
+		7F74CD201550181A8AA2D9B4 /* ARRadioChoice.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ARRadioChoice.podspec; path = ../ARRadioChoice.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D4C0392EF361E92367DD8B9A /* Pods_ARRadioChoice_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARRadioChoice_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50C353081889D97E6A406D7 /* Pods-ARRadioChoice_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARRadioChoice_Example.debug.xcconfig"; path = "Target Support Files/Pods-ARRadioChoice_Example/Pods-ARRadioChoice_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D66FA0CA76824E824A4B5921 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D66FA0CA76824E824A4B5921 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				077A571CA1A8C37FDC10DACC /* Pods-ARRadioChoice_Tests.debug.xcconfig */,
 				48E5EB8AD93F5B540E5DA5E9 /* Pods-ARRadioChoice_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
